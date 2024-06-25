@@ -78,35 +78,7 @@ div {
     }
 }
 
-a {
-    text-decoration-line:none ;
-    color: inherit;
+h2 {
+    font-size: 0.5rem;
     animation: TextAnimation 30s linear infinite;
-}
-
-@keyframes TextAnimaton {
-    0% {
-        text-decoration-color: red;
-    }
-    14% {
-        text-decoration-color: purple;
-    }
-    28% {
-        text-decoration-color: indigo;
-    }
-    42% {
-        text-decoration-color: blue;
-    }
-    56% {
-        text-decoration-color: green;
-    }
-    70% {
-        text-decoration-color: yellow;
-    }
-    84% {
-        text-decoration-color: orange;
-    }
-    100% {
-        text-decoration-color: red;
-    }
 }
