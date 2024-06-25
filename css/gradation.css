@@ -9,7 +9,6 @@ body {
     animation: GradientAnimation 30s linear infinite;
     font-family: Arial, sans-serif;
     color: white;
-    text-align: center;
 }
 
 @keyframes GradientAnimation {
@@ -137,6 +136,7 @@ p {
     border-radius: 5px;
     cursor: pointer;
     align-items: center;
+    text-align: center;
 }
 .home-button:hover {
     background-color: #ff4500;
