@@ -9,6 +9,7 @@ body {
     animation: GradientAnimation 30s linear infinite;
     font-family: Arial, sans-serif;
     color: white;
+    text-align: center;
 }
 
 @keyframes GradientAnimation {
