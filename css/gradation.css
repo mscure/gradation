@@ -46,7 +46,7 @@ body {
     }
 }
 
-h1 {
+div {
     font-size: 1rem;
     animation: TextAnimation 30s linear infinite;
 }
@@ -78,7 +78,3 @@ h1 {
     }
 }
 
-h2 {
-    font-size: 0.5rem;
-    animation: TextAnimation 30s linear infinite;
-}
