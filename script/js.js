@@ -55,4 +55,4 @@ window.onload = function () {
 
     startTimer(nextTenEndTime, 'timer');
     startTimer(nextFridayEndTime, 'friday-timer');
-};
+}
