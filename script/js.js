@@ -27,7 +27,7 @@ function startTimer(endTime, elementId) {
 function getNextTenOClock() {
     const now = new Date();
     let nextTen = new Date();
-    nextTen.setHours(16, 0, 0, 0);
+    nextTen.setHours(16, 30, 0, 0);
 
     if (now >= nextTen) {
         nextTen.setDate(nextTen.getDate() + 1);
@@ -44,7 +44,7 @@ function getNextFridayTenOClock() {
     const diffToFriday = (day <= 5) ? 5 - day : 12 - day;
 
     nextFriday.setDate(now.getDate() + diffToFriday);
-    nextFriday.setHours(16, 0, 0, 0);
+    nextFriday.setHours(16, 30, 0, 0);
 
     return nextFriday;
 }
